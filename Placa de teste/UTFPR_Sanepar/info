@@ -1,0 +1,248 @@
+{
+  "uuid": "9c551225078c14acc43b7e57de0fc368",
+  "path": "Offline/UTFPR_Sanepar",
+  "name": "UTFPR_Sanepar",
+  "content": "",
+  "created_at": "2022-08-31 09:32:07",
+  "updated_at": "2022-09-02 09:29:34",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "bf44560ca66d208df76501ed01cd456f",
+      "title": "SCH_UTFPR_Sanepar",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "744e780565dd499bba68adfb6c114a64": 1,
+        "89026c0e23ca49dcb85d26a1d0805b33": 2,
+        "f095d2ac0cfb453497e0d6e98c1bf909": 1,
+        "9698a5ebc38f435fb5a5f9ff5b84927c": 11,
+        "c012989b93ad4b3291716c228ab9eb85": 1,
+        "dfd5cda015a34c8e8e5439adaacf458b": 3,
+        "0aa32c6e0c7b4077b2230a54d3f11831": 6,
+        "948b75595fb14f39ac02d9502b377e5d": 1,
+        "96dfd08b35df462e96e435950bc1b5c4": 1,
+        "b82150387a2041b4afd55b90c79c5923": 3,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 1,
+        "2bfda8c701df4b6db8594acc26a25912": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          5,
+          "C0805",
+          "C1,C3,C5,C6,C7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "89026c0e23ca49dcb85d26a1d0805b33"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "CAP-D4.0×F1.5",
+          "C2,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "2bfda8c701df4b6db8594acc26a25912"
+          }
+        ],
+        [
+          "1N4007W",
+          1,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328592",
+            "BOM_Manufacturer": "BLUE ROCKET",
+            "BOM_Manufacturer Part": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "4k7",
+          11,
+          "R0805",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "9698a5ebc38f435fb5a5f9ff5b84927c"
+          }
+        ],
+        [
+          "LM1117GS-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C411821",
+            "BOM_Manufacturer": "HTC Korea TAEJIN Tech",
+            "BOM_Manufacturer Part": "LM1117GS-3.3",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "c012989b93ad4b3291716c228ab9eb85"
+          }
+        ],
+        [
+          "Power Supply",
+          1,
+          "CONN-TH_DG503-5.08-02P-14-02A",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2682792",
+            "BOM_Manufacturer": "DEGSON(高正)",
+            "BOM_Manufacturer Part": "DG503-5.08-02P-14-02A(H)",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a806afa56d9d43698a79726bcf5a74ca",
+            "uuid": "948b75595fb14f39ac02d9502b377e5d"
+          }
+        ],
+        [
+          "I2C",
+          3,
+          "CONN-TH_JL500-50004G01",
+          "U3,U6,U11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2802618",
+            "BOM_Manufacturer": "JILN(锦凌)",
+            "BOM_Manufacturer Part": "JL500-50004G01",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c1e5bf2eec414bea975044f7c888be19",
+            "uuid": "0aa32c6e0c7b4077b2230a54d3f11831"
+          }
+        ],
+        [
+          "ESP32 DEVKIT V1 DOIT",
+          1,
+          "DOIT-ESP32-DEVKIT-V1",
+          "U4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "4fb9dd84a4c6437882b24a374301f0d2",
+            "uuid": "96dfd08b35df462e96e435950bc1b5c4"
+          }
+        ],
+        [
+          "RS485",
+          3,
+          "CONN-TH_JL500-50004G01",
+          "U5,U10,U12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2802618",
+            "BOM_Manufacturer": "JILN(锦凌)",
+            "BOM_Manufacturer Part": "JL500-50004G01",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c1e5bf2eec414bea975044f7c888be19",
+            "uuid": "0aa32c6e0c7b4077b2230a54d3f11831"
+          }
+        ],
+        [
+          "ADC",
+          3,
+          "CONN-TH_DG503-5.08-03P-14-02A",
+          "U7,U8,U9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2682793",
+            "BOM_Manufacturer": "DEGSON(高正)",
+            "BOM_Manufacturer Part": "DG503-5.08-03P-14-02A(H)",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "45fa4a8500c14b6f80916c99a72e04bc",
+            "uuid": "dfd5cda015a34c8e8e5439adaacf458b"
+          }
+        ],
+        [
+          "SDCARD",
+          1,
+          "SDCARD",
+          "U13",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "22a50c42869d4e329539e90a699bc588",
+            "uuid": "744e780565dd499bba68adfb6c114a64"
+          }
+        ],
+        [
+          "RS485_MODULE",
+          1,
+          "RS485_MODULE",
+          "U14",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "3544751f7bb041de9129615c4980081a",
+            "uuid": "f095d2ac0cfb453497e0d6e98c1bf909"
+          }
+        ]
+      ],
+      "updateTime": 1662121774,
+      "createTime": 1661949726,
+      "histories": [],
+      "created_at": "2022-08-31 09:42:06",
+      "updated_at": "2022-09-02 09:29:34"
+    },
+    {
+      "uuid": "cb9a0a74f897870b92b0b2b7d68619c5",
+      "puuid": "9c551225078c14acc43b7e57de0fc368",
+      "title": "PCB_UTFPR_Sanepar",
+      "filename": "PCB_UTFPR_Sanepar.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 2,
+        "b60f399a7a7e41848b2be1eb49c79141": 11,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1,
+        "a806afa56d9d43698a79726bcf5a74ca": 1,
+        "c1e5bf2eec414bea975044f7c888be19": 6,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 3,
+        "45fa4a8500c14b6f80916c99a72e04bc": 3,
+        "4fb9dd84a4c6437882b24a374301f0d2": 1,
+        "22a50c42869d4e329539e90a699bc588": 1,
+        "3544751f7bb041de9129615c4980081a": 1,
+        "d0dcff2f94d04daa9354f40d74908283": 2,
+        "60a676d313ae48718a81c380b73dfe4f": 1
+      },
+      "BOM": [],
+      "updateTime": 1662060876,
+      "createTime": 1661972167,
+      "histories": [],
+      "created_at": "2022-08-31 15:56:07",
+      "updated_at": "2022-09-01 16:34:36"
+    }
+  ],
+  "sort": [],
+  "title": "UTFPR_Sanepar",
+  "foldername": "UTFPR_Sanepar",
+  "schfilename": "UTFPR_Sanepar.json",
+  "schfilemtime": 1662121774372
+}
